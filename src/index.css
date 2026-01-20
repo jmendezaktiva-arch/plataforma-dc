@@ -1,0 +1,18 @@
+/* 1. Las importaciones siempre van al principio */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+@import "tailwindcss";
+
+/* 2. Luego van las configuraciones de tema */
+@theme {
+  --color-dreams-blue: #256191;
+  --color-dreams-orange: #EA6D46;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+/* 3. Y al final las aplicaciones a las etiquetas */
+@layer base {
+  body {
+    font-family: var(--font-montserrat);
+    @apply bg-gray-50 text-gray-900;
+  }
+}
