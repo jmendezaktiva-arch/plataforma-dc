@@ -5,7 +5,7 @@ import logo from '../assets/DC logo.png';
 import { getKPIHistory, getUserProfile } from '../api/dbService';
 import KPIGraph from '../components/KPIGraph';
 import AddKPIModal from '../components/AddKPIModal';
-import StrategicAssistant from '../components/StrategicProfileForm'; // Nota: El archivo se llama StrategicProfileForm pero el componente es StrategicAssistant
+import StrategicAssistant from '../components/StrategicProfileForm';
 
 const Dashboard = () => {
   const handleSignOut = () => auth.signOut();
