@@ -15,7 +15,7 @@ const StrategicAssistant = ({ profile, kpiData }) => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-[#256191] to-[#1a4d75] rounded-2xl p-6 text-white shadow-xl border-b-4 border-dreams-orange">
+    <div className="bg-linear-to-br from-dreams-blue to-[#1a4d75] rounded-2xl p-6 text-white shadow-xl border-b-4 border-dreams-orange">
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2">
           <BrainCircuit className="text-dreams-orange" size={24} />
