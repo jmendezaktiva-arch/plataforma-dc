@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { auth } from './firebase';
+import { auth } from './api/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
-import Login from './Login';
-import Dashboard from './Dashboard';
+import Login from './views/Login';
+import Dashboard from './views/Dashboard';
 
 function App() {
   const [user, setUser] = useState(null);

@@ -1,6 +1,6 @@
 // src/components/AddKPIModal.jsx
 import React, { useState } from 'react';
-import { registerKPIEntry } from '../dbService';
+import { registerKPIEntry } from '../api/dbService';
 import { X, Target, TrendingUp } from 'lucide-react';
 
 const AddKPIModal = ({ isOpen, onClose, userId }) => {
